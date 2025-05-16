@@ -3,14 +3,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        short a, b;
-        a = sc.nextShort();
-        b = sc.nextShort();
+        int a = sc.nextShort();
+        int b = a + 1;
+        int c = a - 1;
 
-        double c = Math.sqrt(a * a + b * b);
 
-        System.out.println(c);
-
+        System.out.println("The next number for the number " + a + " is " + b + ".");
+        System.out.println("The previous number for the number " + a + " is " + c + ".");
 
     }
 }
