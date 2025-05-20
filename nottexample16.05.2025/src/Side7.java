@@ -5,7 +5,7 @@ public class Side7 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num,last,second,first,sum;
+        int num, last, second, first, sum;
 
         num = sc.nextInt();
 
@@ -16,9 +16,5 @@ public class Side7 {
         sum = first + second + last;
 
         System.out.println(sum);
-
-
     }
-
-
 }

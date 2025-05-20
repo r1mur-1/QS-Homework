@@ -5,18 +5,12 @@ public class Side4 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int N, last;
+        int n, last;
 
-        N = sc.nextInt();
+        n = sc.nextInt();
 
-        last = N % 10;
+        last = n % 10;
 
         System.out.println(last);
-
-
-
-
-
-
     }
 }

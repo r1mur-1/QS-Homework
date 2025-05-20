@@ -5,15 +5,13 @@ public class Side2 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int shk, apl, total;
+        int sch, apl, total;
 
-        shk = sc.nextInt();
+        sch = sc.nextInt();
         apl = sc.nextInt();
 
-        total = apl % shk;
+        total = apl % sch;
 
         System.out.println(total);
-
-
     }
 }

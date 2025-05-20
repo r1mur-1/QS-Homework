@@ -13,14 +13,8 @@ public class Side3 {
         speed = sc.nextInt();
         time = sc.nextInt();
 
-        point = (path - Math.abs(speed * time));
+        point = (path + speed * time) % path;
 
-        if(109>point)
-            if(Math.abs(point)>0)
-                System.out.println(Math.abs(point));
-
-                else
-                System.out.println("Error");
-
+        System.out.println(point);
     }
 }

@@ -13,6 +13,4 @@ public class Side5 {
 
         System.out.println(total);
     }
-
-
 }
