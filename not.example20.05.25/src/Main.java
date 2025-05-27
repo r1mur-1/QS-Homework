@@ -6,15 +6,16 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        int a, b;
+        int a, b, c;
 
         a = in.nextInt();
         b = in.nextInt();
 
-       if(a > b)
-           System.out.println(a);
+        c = Math.max(a, b);
 
-       else
-           System.out.println(b);
+        System.out.println(c);
+
+
+
     }
 }
