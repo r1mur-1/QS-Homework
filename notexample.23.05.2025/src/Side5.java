@@ -21,7 +21,5 @@ public class Side5 {
         else {
             System.out.println("NO");
         }
-
-
     }
 }

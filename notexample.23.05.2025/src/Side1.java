@@ -9,7 +9,7 @@ public class Side1 {
 
         a = sc.nextInt();
 
-        if (a<0) {
+        if (a < 0) {
             System.out.println("-1");
         }
         else {

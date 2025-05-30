@@ -13,7 +13,7 @@ public class Side4 {
         d = sc.nextInt();
 
 
-        if (a == c | b == d) {
+        if (a == c || b == d) {
             System.out.println("YES");
         }
         else {

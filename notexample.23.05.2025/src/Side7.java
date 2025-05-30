@@ -12,8 +12,8 @@ public class Side7 {
         max = (a > b) ? a : b;
 
         System.out.println(max);
-        }
-     }
+    }
+}
 
 
 
